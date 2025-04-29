@@ -99,46 +99,6 @@ local module_upvr = {
 			Last_Punched = 0;
 			id = "";
 		};
-		Skills = {
-			Water_Wheel = {
-				Module = require(game.ReplicatedStorage.Modules.Npc_Attacks.Water_Wheel);
-				Last_Checked_Hold = 0;
-				CoolDown = 2;
-				Last_Performed = 0;
-				Check_Every = {
-					Min = 1;
-					Max = 3;
-					Divide = 2;
-				};
-				Max_Hold = {2, 3};
-				Is_Hold = true;
-			};
-			water_surface_Slash = {
-				Module = require(game.ReplicatedStorage.Modules.Npc_Attacks.water_surface_Slash);
-				Is_Hold = false;
-			};
-			Sword_Combat = {
-				Module = require(game.ReplicatedStorage.Modules.Npc_Attacks.Sword_Combat);
-				Is_Hold = false;
-			};
-			Sword_Block = {
-				Module = require(game.ReplicatedStorage.Modules.Npc_Attacks.Sword_Block);
-				Last_Checked_Hold = 0;
-				CoolDown = 2;
-				Last_Performed = 0;
-				Check_Every = {
-					Min = 1;
-					Max = 3;
-					Divide = 2;
-				};
-				Max_Hold = {1, 2};
-				Is_Hold = true;
-			};
-			Grip = {
-				Module = require(game.ReplicatedStorage.Modules.Npc_Attacks.Grip);
-				Is_Hold = false;
-			};
-		};
 	};
 	Functions_Debree = {};
 	Debris = {};
